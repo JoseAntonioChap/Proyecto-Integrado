@@ -1,0 +1,301 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/cesped.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+#Titulologo{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  display:inline;
+  margin-left: 28%;
+  font-weight: bold;
+
+}
+html {
+  min-height: 100%;
+  position: relative;
+
+}
+header{
+  background-color:  #030d72 ;
+border-bottom: 10px solid   #00780b ;
+  width: 100%;
+  height: 200px;
+}
+
+.cabeza{
+  width:86%;
+  height: 100%;
+  margin-left: 7%;
+
+}
+
+#logo{
+height: 100px;
+margin-top: 100px;
+display: inline;
+margin-top: 3%;
+margin-left: 3%;
+
+}
+
+
+table , th, td{
+  border: 5px solid #08a800;
+  border-collapse: collapse;
+  padding: 15px;
+
+}
+.tabla{
+margin: auto;
+text-align: center;
+width: 1000px;
+}
+
+
+
+
+#barra_busqueda{
+margin-left: 15%;
+margin-top: 75px;
+height: 47px;
+width: 400px;
+border: 3px solid #FFE8FB;
+border-radius: 100px;
+border-right: 4px solid #FFE8FB;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+  font-size: 20px;
+}
+
+
+#boton_busqueda{
+  height: 55px;
+  border: 3px solid #FFE8FB;
+  border-radius: 100px;
+  border-left: 4px solid #FFE8FB;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+}
+#icono_prim{
+height:50px;
+margin-left: 15%;
+margin-top: 10px;
+
+}
+#iconos_sec{
+height:50px;
+margin-left: 2%;
+margin-top: 10px;
+}
+.listaproductos{
+  margin-top:  100px;
+  background-color:  #030d72 ;
+  width: 89%;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+  margin-bottom: 10%;
+  border: 8px solid   #00780b ;
+  border-radius: 50px;
+}
+.producto{
+  height: 300px;
+  width: 220px;
+  margin: 30px;
+  margin-top: 20px;
+  background-color: #fff;
+  display:inline-block;
+
+
+}
+p#nompro{
+    font-size: 20px;
+    color: black;
+margin: 7px;
+height: 50px;
+text-align: center;
+}
+p#preciopro{
+  font-size: 20px;
+  color:  #3a3a3a;
+margin: 5px;
+margin-left: 20%;
+text-align: right;
+display: inline;
+}
+
+.navegacion{
+  list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #030d72;
+
+}
+
+li {
+    float: left;
+    width: 20%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #4bff42;
+    color: black;
+  }
+.imgpro{
+  margin: 8px;
+  height: 170px;
+  width: 200px;
+  border: 2px solid #123;
+
+}
+
+.imgproduct{
+  margin: 5px;
+  height: 90%;
+  width: 90%;
+object-fit:contain;
+
+
+}
+#ver{
+  display: inline;
+  background-color:  #4bff42;
+  font-weight: bold;
+  border: 5px solid  #08a800 ;
+  border-radius: 100px;
+  float: left;
+  margin-left: 5%;
+}
+
+#ver:hover{
+    background-color: #030d72;
+    color: white;
+}
+
+.listadeformulas{
+  margin-top:  100px;
+  background-color:  #030d72 ;
+  width: 89%;
+
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+  margin-bottom: 10%;
+  border: 8px solid   #00780b ;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.registro{
+position: absolute;
+  background: #030d72;
+  border: 8px solid   #00780b ;
+  border-radius: 50px;
+  width: 30%;
+  height: auto;
+  margin-top: 10%;
+  margin-left:35%;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color:white;
+}
+.producto-compra{
+
+font-size: 25px;
+margin-top: 50px;
+  width:800px;
+  height: 300px;
+  float: left;
+  margin-left: 15%;
+  color: white;
+
+}
+.detalles{
+  margin-left: 10%;
+}
+
+
+.img-compra{
+  float: right;
+
+
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+  margin-right: 12%;
+}
+.form-compra{
+
+  display: inline;
+margin-top: 50px;
+  width:75%;
+  height: 300px;
+  float: left;
+  margin-left: 15%;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: white;
+}
+#aceptar:hover{
+    background-color: #030d72;
+    color: white;
+}
+#aceptar{
+  margin-top: 20px;
+  background-color:  #4bff42;
+  font-weight: bold;
+  border: 5px solid  #08a800 ;
+  border-radius: 100px;
+
+
+  font-size: 20px;
+}
+.fotofinal{
+max-width: 100%;
+max-height: 100%;
+object-fit: contain;
+}
+footer   {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+  margin: 0
+}
+.divtabla{
+
+
+    background: #030d72;
+    border: 8px solid   #00780b ;
+    border-radius: 50px;
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+    margin-left:10%;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color:white;
+      margin-bottom: 10%;
+
+}

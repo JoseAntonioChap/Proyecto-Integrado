@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/cesped.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 100%;
+
+
+
+}
+.divtabla{
+
+
+    background: #030d72;
+    border: 8px solid   #00780b ;
+    border-radius: 50px;
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+    margin-left:10%;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color:white;
+    margin-bottom: 10%;
+    list-style: none;
+}
+#aceptar:hover{
+    background-color: #030d72;
+    color: white;
+}
+#aceptar{
+  margin-top: 20px;
+  background-color:  #4bff42;
+  font-weight: bold;
+  border: 5px solid  #08a800 ;
+  border-radius: 100px;
+
+
+  font-size: 20px;
+}
